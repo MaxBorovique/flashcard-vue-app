@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="flex bg-slate-400 w-100% h-[65px] justify-between items-center">
+    <div class="flex bg-slate-400 dark:bg-red-300 w-100% h-[65px] justify-between items-center">
       <div class="logo">
         <div class="pl-10">
           <a href="#">
@@ -12,7 +12,7 @@
           </a>
         </div>
       </div>
-      <nav class="flex gap-3 pr-10">
+      <nav class="flex gap-3 pr-10 dark:bg-slate-500">
         <ul
           v-for="(link, index) in headerLinks"
           :key="index"
