@@ -1,14 +1,14 @@
 <template>
-<div class="text-center text-blue-500">
-    <h1>Hello Tailwind!</h1>
-  </div>
+  <AppHeader />
 </template>
 
 <script>
+import AppHeader from "./components/AppHeader.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  }
-}
+    AppHeader,
+  },
+};
 </script>
